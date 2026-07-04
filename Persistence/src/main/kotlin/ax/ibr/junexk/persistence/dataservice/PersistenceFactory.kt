@@ -13,13 +13,10 @@ import jakarta.persistence.Persistence
 
 class PersistenceFactory {
 
-    private lateinit var artistService : ArtistDataService
-
-    private lateinit var musicService : MusicDataService
-
-    private lateinit var userService : UserDataService
-
     private lateinit var playlistService : PlaylistDataService
+    private lateinit var artistService : ArtistDataService
+    private lateinit var musicService : MusicDataService
+    private lateinit var userService : UserDataService
 
     private val PU : String = "junexPU"
     private val JDBC : Boolean = false

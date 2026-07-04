@@ -15,30 +15,30 @@ class MusicServiceImpl : MusicService {
     }
 
     override fun getByArtist(artist: Artist): Music {
-        TODO("Not yet implemented")
+        return service.getByArtist(artist)
     }
 
     override fun getByMusicGenre(genre: MusicGenre): MusicGenre {
-        TODO("Not yet implemented")
+        return service.getByMusicGenre(genre)
     }
 
     override fun add(t: Music) {
-        TODO("Not yet implemented")
+        service.add(t)
     }
 
     override fun update(t: Music) {
-        TODO("Not yet implemented")
+        service.update(t)
     }
 
     override fun remove(t: Music) {
-        TODO("Not yet implemented")
+        service.remove(t)
     }
 
     override fun getAll(): List<Music> {
-        TODO("Not yet implemented")
+        return service.getAll()
     }
 
     override fun getById(id: Long): Music? {
-        TODO("Not yet implemented")
+        return service.getById(id)
     }
 }
